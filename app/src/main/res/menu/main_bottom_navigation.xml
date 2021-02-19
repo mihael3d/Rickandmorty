@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-
-        android:id="@+id/characters"
-        android:title="characters"
+        android:id="@+id/menu__characters"
         android:icon="@drawable/ic_moc"
-        app:showAsAction="always"
-        android:orderInCategory="1"
-        />
-    <item
-        android:id="@+id/season"
-        android:title="season"
-        app:showAsAction="always"
-        android:orderInCategory="2"
-        android:icon="@drawable/ic_moc"/>
+        android:contentDescription="@string/main_bottom_navigation__characters"
+        android:title="@string/main_bottom_navigation__characters" />
 
     <item
-        android:id="@+id/location"
+        android:id="@+id/menu__seasons"
         android:icon="@drawable/ic_moc"
-        app:showAsAction="always"
-        android:orderInCategory="3"
-        android:title="location" />
+        android:contentDescription="@string/main_bottom_navigation__seasons"
+        android:title="@string/main_bottom_navigation__seasons" />
+
+    <item
+        android:id="@+id/menu__locations"
+        android:icon="@drawable/ic_moc"
+        android:contentDescription="@string/main_bottom_navigation__location"
+        android:title="@string/main_bottom_navigation__location" />
 </menu>

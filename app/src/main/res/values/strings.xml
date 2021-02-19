@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Rickandmorty</string>
+
+
+    <!-- region Fragment <Splash> -->
+    <string name="fragment_splash__title">Splash screen</string>
+
+    <!-- endregion -->
+
+    <!-- region Bottom navigation -->
+    <string name="main_bottom_navigation__characters">Characters</string>
+    <string name="main_bottom_navigation__seasons">Seasons</string>
+    <string name="main_bottom_navigation__location">Location</string>
+    <!-- endregion -->
 </resources>

@@ -1,4 +1,6 @@
 package com.example.rickandmorty.ui.splash
 
-class SplashNavCommand {
+enum class SplashNavCommand {
+    NAVIGATE_TO_MAIN,
+    NAVIGATE_TO_AUTH
 }
